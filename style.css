@@ -1,0 +1,184 @@
+.age-verification-popup{
+    max-width:50%;
+    min-height:80%;
+    top:0;
+    right:25%;
+    left: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.age-verification-popup *{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+
+.age-verification-popup h1, p{
+    text-align:center;
+    padding-top:10px;
+}
+
+.age-form{
+   display: flex;
+   flex-direction: column;
+}
+
+.age-form label{
+    margin-top:30px;
+}
+
+.age-form select{
+    margin-bottom:20px;
+    height:50px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.age-form select option{
+    margin-right:10px;
+}
+
+.remember-me{
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.remember-me p{
+    position:relative;
+    margin-left:0;
+}
+
+#submit-age-form-btn{
+    border-width: 2px;
+    height:50px;
+    background-color: white;
+    
+}
+
+.smaller{
+    font-size:smaller;
+}
+
+
+body{
+    background-color: lightgray;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url("./images/landscape\ drink.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.underlined{
+    text-decoration:underline;
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    position:fixed;
+}
+
+.logo{
+    position:relative;
+    top:-31px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: large;
+    color:white;
+}
+
+nav a{
+    margin-left:10px;
+    margin-right:10px;
+    color: white;
+}
+
+.down-arrow{
+    position: relative;
+    top: -5px;
+}
+
+.discover-more{
+    
+    margin-right:100px;
+    margin-left:auto;
+    flex-direction: column;
+    width:20%;
+    display: flex;
+   
+    color: white;
+}
+
+.discover-more p{
+    text-align: left;
+}
+
+.discover-more button{
+    background-color: white;
+    border: none;
+    width:120px;
+    height:2rem;
+}
+
+.x-large{
+    font-size: 50px;
+}
+
+.larger{
+    font-size: larger;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-top:350px;
+    width:100%;
+    background-color: white;
+    overflow-x: scroll;
+}
+
+.products *{
+    padding:5px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.see-more{
+    min-width:30%;
+    padding-top:100px;
+}
+
+.discover-more-btn{
+    position:relative;
+    top:20px;
+    left:120px;
+    background-color: white;
+    border-width: 1px;
+}
+
+.discover-more-btn:hover{
+    cursor:pointer;
+}
+
+.products .product:hover{
+    padding:5px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px black;
+    
+}
+
